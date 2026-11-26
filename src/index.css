@@ -1,0 +1,22 @@
+@import "tailwindcss";
+
+@theme {
+  --color-cream: #fdf8ee;
+  --color-parchment: #f7efdc;
+  --color-forest: #14532d;
+  --color-pine: #1b4332;
+  --color-moss: #2f6b4f;
+  --color-sage: #dce8d8;
+  --color-clay: #c96f4a;
+  --color-ink: #22301f;
+  --font-display: "Fraunces", Georgia, serif;
+  --font-body: "Inter", system-ui, sans-serif;
+}
+
+html { scroll-behavior: smooth; }
+body { background: #fdf8ee; color: #22301f; font-family: "Inter", system-ui, sans-serif; margin: 0; }
+.font-display { font-family: "Fraunces", Georgia, serif; }
+.card-shadow { box-shadow: 0 2px 6px rgba(27,67,50,0.06), 0 18px 40px -18px rgba(27,67,50,0.22); }
+.card-shadow:hover { box-shadow: 0 4px 10px rgba(27,67,50,0.08), 0 24px 48px -18px rgba(27,67,50,0.28); }
+::selection { background: #14532d; color: #fdf8ee; }
+input, select, textarea, button { font-family: inherit; }
